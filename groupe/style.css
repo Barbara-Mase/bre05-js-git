@@ -1,3 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column; 
+        justify-content:center;
+        gap: 10px; 
+    }
+    
+    article {
+        margin: 0 auto;
+        width: 30%;          
+        height: 50vh;         
+        background-color: #3d348b; 
+    }
+}
+
+
 @media (min-width: 768px) and (max-width: 991px) {
 
     body {
@@ -14,6 +37,24 @@
     article {
         background-color: #a31621;
         height: 30vh;
-        margin: 50px;
+        margin: 50px; 
+  }
+  
+}
+
+
+@media screen and (min-width: 992px) {
+    
+    main {
+        display: grid;
+        grid-template: repeat(2, auto) / repeat(3, auto);
+        width: 110vh;
+        margin: auto;
+    }
+    
+    article {
+        height: 30vh;
+        margin: 1vh;
+        background-color: #f7b801;
     }
 }
