@@ -1,0 +1,38 @@
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header, footer {
+    background-color: #a31621;
+    
+}
+
+header {
+    height: 10vh;
+}
+
+footer {
+    height: 20vh;
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    
+    header, footer {
+        background-color: #3d348b;
+        width: 85vh;
+    }
+    
+    header {
+        height: 5vh;
+    }
+    
+    footer {
+        height: 10vh;
+    }
+}
