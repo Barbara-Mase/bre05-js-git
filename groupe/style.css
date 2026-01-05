@@ -4,18 +4,18 @@ body {
 }
 
 /* --- VERSION MOBILE (< 768px) --- */
-
-main {
-    display: flex;
-    flex-direction: column; 
-    justify-content:center;
-    gap: 10px; 
-}
-
-
-article {
-    margin: 0 auto;
-    width: 30%;          
-    height: 50vh;         
-    background-color: #3d348b; 
+@media screen and (max-width: 768px) {
+    main {
+        display: flex;
+        flex-direction: column; 
+        justify-content:center;
+        gap: 10px; 
+    }
+    
+    article {
+        margin: 0 auto;
+        width: 30%;          
+        height: 50vh;         
+        background-color: #3d348b; 
+    }
 }
